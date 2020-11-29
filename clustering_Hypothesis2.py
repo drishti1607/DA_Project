@@ -1,6 +1,6 @@
-#Hypothesis testing: 2004
-#Clusters 4 rural places in tier 3, unlike 2011
-#final cluster: [0.8664850564285879, 0.5157956362627378], 2: [0.04362950255514935, 0.032280685980397475], 3: [0.26458400959491757, 0.2111796753773657]}
+#Hypothesis testing: 2008
+#Clusters 2 rural places in tier 1 and one urban place in tier 2
+#{1: [0.745115262845481, 0.631523389172018], 2: [0.12288027783978757, 0.19607263209113418], 3: [0.05054309091065474, 0.02964637968083717]}
 
 import numpy as numpy
 import pandas as pd
@@ -46,7 +46,7 @@ def k_means(cluster_centroid, df):
     return cluster_centroid, df
 
 df = pd.read_csv("processed_Clustering.csv")
-df = df.loc[df['Year'] == 2004]
+df = df.loc[df['Year'] == 2008]
 
 cols_to_norm = ['Rape', 'Kidnapping and Abduction']
 df[cols_to_norm] = df[cols_to_norm].apply(lambda x: (x - x.min()) / (x.max() - x.min()))
@@ -64,9 +64,9 @@ plt.ylim(0, 1)
 x = [0, 0.1, 0.2, 0.3, 0.5, 0.7, 0.8]
 x = numpy.array(x)
 
-y = numpy.array(-1.22*x + 0.33)
+y = numpy.array(-0.43*x + 0.1410021)
 plt.plot(x, y)
 
-y = numpy.array(-1.90505*x + 1.42)
+y = numpy.array(-1.40905*x + 1.012)
 plt.plot(x, y)
 plt.show()

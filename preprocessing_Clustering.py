@@ -48,22 +48,6 @@ rural = {
     'UDAIPUR': 451000
 }
 
-'''
-df['Urban'] = 0
-for i, row in df.iterrows():
-    if row['DISTRICT'] in urban:
-        df.loc[i, 'Urban'] = 1
-
-#print(df)
-
-cols_to_norm = ['Rape', 'Kidnapping and Abduction', 'Dowry Deaths', 'Assault on women with intent to outrage her modesty', 'Insult to modesty of Women', 'Cruelty by Husband or his Relatives', 'Importation of Girls', 'Total']
-#df[cols_to_norm] = df[cols_to_norm].apply(lambda x: (x - x.min()) / (x.max() - x.min()))
-df = df.sort_values(['Total'], ascending = [False])
-df = df.loc[df['Year'] == 2011]
-print(df.head(100))
-#df.to_csv("processed_Clustering.csv")
-'''
-
 df['Urban'] = 0
 df['Population'] = 0
 for i, row in df.iterrows():
