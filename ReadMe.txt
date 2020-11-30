@@ -8,8 +8,8 @@ features are strongly related and which vary from the mean the most.
 2 Types of Models Prepared:
 
 Linear regression :
-Defining a variable and performing regression on the complete set of cromes 
-commited in india against women
+Defining a variable and performing regression on the complete set of crimes 
+commited in India against women
 
 Regression Analysis between Urban and Rural and on States for different crimes
 
