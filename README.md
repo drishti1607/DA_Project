@@ -2,15 +2,15 @@
  Crime against women data analysis 
 
 Data Visualization:
-BoxPlot
-Multi Line Graph
-Bar graph
-Grouped Bar Graph
-Pie Chart
-Scatter Plot
+BoxPlot<br>
+Multi Line Graph<br
+Bar graph<br>
+Grouped Bar Graph<br>
+Pie Chart<br>
+Scatter Plot<br>
 
-Covariance and Correlational Analysis
+Covariance and Correlational Analysis<br>
 
-2 Types of Models Prepared:
-Linear regression 
-Clustering
+2 Types of Models Prepared:<br>
+Linear regression <br>
+Clustering<br>
