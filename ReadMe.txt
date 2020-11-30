@@ -1,3 +1,11 @@
+HOW TO RUN:-
+The repository if cloned will have a folder DA_Project/DataBases
+The python notebook contains cells which show the current working directory and allow u to change it to the one shown above
+
+i.e ../DA_Project/DataBases
+
+OVERVIEW:-
+
 Crime against women data analysis 
 
 Covariance and Correlational Analysis
